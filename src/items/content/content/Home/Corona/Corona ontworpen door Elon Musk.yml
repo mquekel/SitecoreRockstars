@@ -1,0 +1,23 @@
+﻿---
+ID: "6f63823d-27e3-468b-bb3a-a6b9dca93266"
+Parent: "d9797527-b6cc-40c8-a52d-ee2383ce86a6"
+Template: "be25ab41-a212-430a-bbf2-552c157db892"
+Path: /sitecore/content/Home/Corona/Corona ontworpen door Elon Musk
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210611T135352Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e4bc94bf-8ffc-416f-9bc5-733b536c3d85"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210611T135352Z

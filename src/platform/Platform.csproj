@@ -68,10 +68,16 @@
     <Content Include="App_Config\Include\Sitecore.LoadBalancing.config" />
     <Content Include="App_Config\Include\Sitecore.Media.config" />
     <Content Include="App_Config\Include\MyProject.config" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
     <None Include="Platform.wpp.targets" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <None Include="README.md" />
+    <Content Include="Views\web.config" />
     <None Include="web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

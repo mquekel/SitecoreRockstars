@@ -11,13 +11,17 @@
                 "name": "templates",
                 "path": "/sitecore/templates/Project/MyProject"
             },
+			{
+                "name": "templates-feature",
+                "path": "/sitecore/templates/Feature/MyProject"
+            },
             {
                 "name": "layouts",
                 "path": "/sitecore/layout/Layouts/Project/MyProject"
             },
-            {
-                "name": "renderings",
-                "path": "/sitecore/layout/Renderings/Project/MyProject"
+			{
+                "name": "renderings-feature",
+                "path": "/sitecore/layout/Renderings/Feature/MyProject"
             },
             {
                 "name": "placeholders",
@@ -25,7 +29,7 @@
             },
             {
                 "name": "content",
-                "path": "/sitecore/content/MyProject"
+                "path": "/sitecore/content"
             },
             {
                 "name": "media",

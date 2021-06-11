@@ -1,0 +1,23 @@
+﻿---
+ID: "d9797527-b6cc-40c8-a52d-ee2383ce86a6"
+Parent: "a41b7db4-8425-4ba8-bb6a-871151e3276d"
+Template: "3252a7bb-133c-42bc-bed5-87b154039008"
+Path: /sitecore/content/Home/Corona
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210611T135142Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5efd0e17-b103-4c97-b7c0-142b16a79aa3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210611T135142Z
