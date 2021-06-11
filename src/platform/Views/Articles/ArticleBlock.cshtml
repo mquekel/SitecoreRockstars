@@ -1,0 +1,18 @@
+﻿@using Sitecore.Data.Fields
+@{ 
+    var linkUrl = string.Empty;
+    var linkText = string.Empty;
+    LinkField linkField = Html.Sitecore().CurrentItem.Fields["Link"];
+    if (linkField != null)
+    {
+        linkUrl = linkField.GetFriendlyUrl();
+        linkText = linkField.Title;
+    } 
+}
+<div class="container">
+    <div class="col-md-4">
+        <h2>@Html.Sitecore().Field("Title")</h2>
+        @Html.Sitecore().Field("Body")
+        <p><a class="btn btn-secondary" href="@linkUrl" role="button">@linkText</a></p>
+    </div>
+</div>

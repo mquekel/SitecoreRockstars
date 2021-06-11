@@ -73,11 +73,16 @@
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <None Include="README.md" />
     <Content Include="Views\web.config" />
+    <Content Include="Views\Articles\ArticleBlock.cshtml" />
+    <Content Include="Views\Articles\Articles.cshtml" />
     <None Include="web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Controllers\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\ArticleBlock\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controllers\ArticleBlockController.cs" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
