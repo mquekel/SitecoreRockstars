@@ -2,11 +2,14 @@
 ID: "6551eac8-ef8e-42ee-9334-80dd73096010"
 Parent: "475834cb-5167-4892-b190-e4a932927812"
 Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
-Path: "/sitecore/layout/Placeholder Settings/Project/MyProject/MyProject-main"
+Path: /sitecore/layout/Placeholder Settings/Project/MyProject/main
 SharedFields:
 - ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
   Hint: Placeholder Key
-  Value: "myproject-main"
+  Value: main
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Value: "{6B5B0FE6-5C85-4487-BA7E-F8C2ECC186A8}"
 Languages:
 - Language: en
   Versions:
@@ -17,11 +20,11 @@ Languages:
       Value: 20200526T205129Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8cbe19f5-9cc3-4bd4-b029-31261303eb2c"
+      Value: "bc1a4ade-8a87-489f-b36f-0330fc34072b"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20200526T205129Z
+      Value: 20210611T143819Z

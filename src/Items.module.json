@@ -1,40 +1,44 @@
 {
     "namespace": "Items",
     "items" : {
-        "includes": [
-            {
-                "name": "api-key",
-                "path": "/sitecore/system/Settings/Services/API Keys/MyProject",
-                "scope": "singleItem"
-            },
-            {
-                "name": "templates",
-                "path": "/sitecore/templates/Project/MyProject"
-            },
-			{
-                "name": "templates-feature",
-                "path": "/sitecore/templates/Feature/MyProject"
-            },
-            {
-                "name": "layouts",
-                "path": "/sitecore/layout/Layouts/Project/MyProject"
-            },
-			{
-                "name": "renderings-feature",
-                "path": "/sitecore/layout/Renderings/Feature/MyProject"
-            },
-            {
-                "name": "placeholders",
-                "path": "/sitecore/layout/Placeholder Settings/Project/MyProject"
-            },
-            {
-                "name": "content",
-                "path": "/sitecore/content"
-            },
-            {
-                "name": "media",
-                "path": "/sitecore/media library/MyProject"
-            }
-        ]
+      "includes": [
+        {
+          "name": "api-key",
+          "path": "/sitecore/system/Settings/Services/API Keys/MyProject",
+          "scope": "singleItem"
+        },
+        {
+          "name": "templates",
+          "path": "/sitecore/templates/Project/MyProject"
+        },
+        {
+          "name": "templates-feature",
+          "path": "/sitecore/templates/Feature/MyProject"
+        },
+        {
+          "name": "layouts",
+          "path": "/sitecore/layout/Layouts/Project/MyProject"
+        },
+        {
+          "name": "renderings-feature",
+          "path": "/sitecore/layout/Renderings/Feature/MyProject"
+        },
+        {
+          "name": "placeholders",
+          "path": "/sitecore/layout/Placeholder Settings/Project/MyProject"
+        },
+        {
+          "name": "content",
+          "path": "/sitecore/content"
+        },
+        {
+          "name": "media",
+          "path": "/sitecore/media library/MyProject"
+        },
+        {
+          "name": "forms",
+          "path": "/sitecore/forms"
+        }
+      ]
     }
 }

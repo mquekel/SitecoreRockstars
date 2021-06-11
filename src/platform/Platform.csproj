@@ -57,6 +57,7 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Sitecore.ExperienceForms.Mvc"/>
     <PackageReference Include="Sitecore.Kernel" />
     <PackageReference Include="Sitecore.ContentSearch" />
     <PackageReference Include="Sitecore.ContentSearch.Linq" />
